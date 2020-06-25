@@ -1,0 +1,8 @@
+e= open("one.txt","a")
+e.write("Is a good boy")
+e.write("\tAdding")
+e.write("\nAdding in next line")
+e.close()
+e1 =open("two.txt","w")
+e1.write("Hello new file")
+e1.close()
